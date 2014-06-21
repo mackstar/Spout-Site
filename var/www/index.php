@@ -16,5 +16,3 @@
  * GET /my-custom-route
  */
 $app = require dirname(dirname(__DIR__)) . '/var/bootstrap/run.php';
-
-

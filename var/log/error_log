@@ -49,3 +49,598 @@
 [Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
 [Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:19
 [Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP   3. require_once() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/instance.php:13
+[Sat Jun 21 17:09:09 2014] [error] [client 127.0.0.1] PHP Fatal error:  Class '\\Module\\AppModule' not found in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php on line 75
+[Sat Jun 21 17:09:09 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:09:09 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:09:09 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:09:09 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:19
+[Sat Jun 21 17:09:09 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:09:09 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:09:09 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:09:09 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:09:09 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:11:00 2014] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Mackstar\\Spout\\Module\\AppModule' not found in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php on line 75
+[Sat Jun 21 17:11:00 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:11:00 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:11:00 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:11:00 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:11:00 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:11:00 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:11:00 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:11:00 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:11:00 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/var/conf/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/var/conf/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:11:09 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/var/conf/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/var/conf/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:13:47 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/var/conf/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/var/conf/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:17:51 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/var/conf/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/var/conf/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:23:56 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/conf/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/conf/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:24:15 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:24:50 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:25:21 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:25:59 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:26:17 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:26:20 2014] [error] [client 127.0.0.1] File does not exist: /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/favicon.ico
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:26:46 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected ')' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP   9. Composer\\Autoload\\ClassLoader->loadClass() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:0
+[Sat Jun 21 17:27:14 2014] [error] [client 127.0.0.1] PHP  10. Composer\\Autoload\\includeFile() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/composer/ClassLoader.php:270
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/prod.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:27:23 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/production.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/conf/env/production.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 55
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:27:54 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/lib/params/production.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 56
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/lib/params/production.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 56
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:28:47 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP Catchable fatal error:  Argument 3 passed to BEAR\\Package\\Module\\Package\\PackageModule::__construct() must be of the type array, integer given, called in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php on line 67 and defined in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Package/PackageModule.php on line 35
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP   8. Ray\\Di\\InjectorFactory->newInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP   9. Ray\\Di\\Injector->setModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/InjectorFactory.php:84
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP  10. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:131
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP  11. Mackstar\\Spout\\App\\Module\\AppModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:30:59 2014] [error] [client 127.0.0.1] PHP  12. BEAR\\Package\\Module\\Package\\PackageModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php:67
+[Sat Jun 21 17:32:36 2014] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Ray\\Di\\Exception\\NotBound' with message 'typehint='', annotate='tmp_dir' for $tmpDir in class 'BEAR\\Sunday\\Module\\Cache\\CacheProvider'' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:293\nStack trace:\n#0 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(224): Ray\\Di\\Binder->getNotBoundException(Array, 0, '', 'tmp_dir')\n#1 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(112): Ray\\Di\\Binder->jitBinding(Array, '', 'tmp_dir', 0)\n#2 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(94): Ray\\Di\\Binder->getNoBoundParam(Array, 0)\n#3 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(72): Ray\\Di\\Binder->extractParam(Array, 0)\n#4 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php(371): Ray\\Di\\Binder->bindMethod(Object(BEAR\\Package\\Module\\Cache\\CacheAspectModule), 'BEAR\\Sunday\\Mod...', Array)\n#5 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/ in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php on line 293
+[Sat Jun 21 17:32:36 2014] [error] [client 127.0.0.1] File does not exist: /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/favicon.ico
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined index: app_name in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Package/PackageModule.php on line 63
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   8. Ray\\Di\\InjectorFactory->newInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   9. Ray\\Di\\Injector->setModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/InjectorFactory.php:84
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP  10. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:131
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP  11. Mackstar\\Spout\\App\\Module\\AppModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP  12. Ray\\Di\\AbstractModule->install() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php:67
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP  13. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:365
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP  14. BEAR\\Package\\Module\\Package\\PackageModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined index: resource_dir in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Package/PackageModule.php on line 63
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   8. Ray\\Di\\InjectorFactory->newInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP   9. Ray\\Di\\Injector->setModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/InjectorFactory.php:84
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP  10. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:131
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP  11. Mackstar\\Spout\\App\\Module\\AppModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP  12. Ray\\Di\\AbstractModule->install() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php:67
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP  13. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:365
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP  14. BEAR\\Package\\Module\\Package\\PackageModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:33:48 2014] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'BEAR\\Resource\\Exception\\AppName' with message 'NULL' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/resource/src/Module/ResourceClientModule.php:29\nStack trace:\n#0 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Resource/ResourceModule.php(40): BEAR\\Resource\\Module\\ResourceClientModule->__construct(NULL, NULL)\n#1 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php(213): BEAR\\Package\\Module\\Resource\\ResourceModule->configure()\n#2 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php(365): Ray\\Di\\AbstractModule->activate(Object(Ray\\Di\\Injector))\n#3 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Package/PackageModule.php(63): Ray\\Di\\AbstractModule->install(Object(BEAR\\Package\\Module\\Resource\\ResourceModule))\n#4 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php(213): BEAR\\Package\\Module\\Package\\PackageModule->configure()\n#5 /Users/MackstarMBA in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/resource/src/Module/ResourceClientModule.php on line 29
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined index: resource_dir in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Package/PackageModule.php on line 63
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   8. Ray\\Di\\InjectorFactory->newInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   9. Ray\\Di\\Injector->setModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/InjectorFactory.php:84
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  10. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:131
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  11. Mackstar\\Spout\\App\\Module\\AppModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  12. Ray\\Di\\AbstractModule->install() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php:67
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  13. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:365
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  14. BEAR\\Package\\Module\\Package\\PackageModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Bobs cars\\Module\\AppModule' not found in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php on line 75
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   8. Ray\\Di\\InjectorFactory->newInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP   9. Ray\\Di\\Injector->setModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/InjectorFactory.php:84
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  10. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:131
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  11. Mackstar\\Spout\\App\\Module\\AppModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  12. Ray\\Di\\AbstractModule->install() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php:67
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  13. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:365
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  14. BEAR\\Package\\Module\\Package\\PackageModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  15. Ray\\Di\\AbstractModule->install() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Package/PackageModule.php:66
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  16. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:365
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  17. BEAR\\Resource\\Module\\EmbedResourceModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  18. Ray\\Di\\AbstractModule->requestInjection() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/resource/src/Module/EmbedResourceModule.php:22
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  19. Ray\\Di\\Injector->getInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:418
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  20. Ray\\Di\\BoundInstance->hasBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:193
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  21. Ray\\Di\\BoundInstance->binding() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:87
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  22. Ray\\Di\\BoundInstance->getBoundDefinition() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:132
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  23. Ray\\Di\\BoundInstance->bindModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:177
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  24. Ray\\Di\\BoundInstance->getSetter() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:352
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  25. Ray\\Di\\Binder->bindMethod() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:371
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  26. Ray\\Di\\Binder->extractParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:72
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  27. Ray\\Di\\Binder->getParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:97
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  28. Ray\\Di\\Binder->instanceBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:128
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  29. Ray\\Di\\Binder->getInstanceWithContainer() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:199
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  30. Ray\\Di\\Injector->getInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:250
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  31. Ray\\Di\\BoundInstance->hasBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:193
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  32. Ray\\Di\\BoundInstance->binding() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:87
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  33. Ray\\Di\\BoundInstance->getBoundDefinition() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:132
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  34. Ray\\Di\\BoundInstance->bindModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:177
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  35. Ray\\Di\\BoundInstance->getSetter() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:352
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  36. Ray\\Di\\Binder->bindMethod() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:371
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  37. Ray\\Di\\Binder->extractParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:72
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  38. Ray\\Di\\Binder->getParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:97
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  39. Ray\\Di\\Binder->instanceBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:128
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  40. Ray\\Di\\Binder->getInstanceWithContainer() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:199
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  41. Ray\\Di\\Binder->getProvidedInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:250
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  42. Ray\\Di\\Injector->getInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:266
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  43. Ray\\Di\\BoundInstance->hasBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:193
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  44. Ray\\Di\\BoundInstance->binding() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:87
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  45. Ray\\Di\\BoundInstance->getBoundDefinition() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:132
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  46. Ray\\Di\\BoundInstance->bindModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:177
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  47. Ray\\Di\\BoundInstance->getSetter() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:352
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  48. Ray\\Di\\Binder->bindMethod() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:371
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  49. Ray\\Di\\Binder->extractParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:72
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  50. Ray\\Di\\Binder->getParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:97
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  51. Ray\\Di\\Binder->instanceBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:128
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  52. Ray\\Di\\Binder->getInstanceWithContainer() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:199
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  53. Ray\\Di\\Binder->getProvidedInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:250
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  54. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:268
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  55. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  56. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  57. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:34:22 2014] [error] [client 127.0.0.1] PHP  58. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Bobs cars\\Module\\AppModule' not found in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php on line 75
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP   8. Ray\\Di\\InjectorFactory->newInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP   9. Ray\\Di\\Injector->setModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/InjectorFactory.php:84
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  10. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:131
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  11. Mackstar\\Spout\\App\\Module\\AppModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  12. Ray\\Di\\AbstractModule->install() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php:67
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  13. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:365
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  14. BEAR\\Package\\Module\\Package\\PackageModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  15. Ray\\Di\\AbstractModule->install() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Package/PackageModule.php:66
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  16. Ray\\Di\\AbstractModule->activate() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:365
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  17. BEAR\\Resource\\Module\\EmbedResourceModule->configure() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:213
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  18. Ray\\Di\\AbstractModule->requestInjection() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/resource/src/Module/EmbedResourceModule.php:22
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  19. Ray\\Di\\Injector->getInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/AbstractModule.php:418
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  20. Ray\\Di\\BoundInstance->hasBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:193
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  21. Ray\\Di\\BoundInstance->binding() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:87
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  22. Ray\\Di\\BoundInstance->getBoundDefinition() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:132
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  23. Ray\\Di\\BoundInstance->bindModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:177
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  24. Ray\\Di\\BoundInstance->getSetter() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:352
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  25. Ray\\Di\\Binder->bindMethod() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:371
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  26. Ray\\Di\\Binder->extractParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:72
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  27. Ray\\Di\\Binder->getParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:97
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  28. Ray\\Di\\Binder->instanceBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:128
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  29. Ray\\Di\\Binder->getInstanceWithContainer() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:199
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  30. Ray\\Di\\Injector->getInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:250
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  31. Ray\\Di\\BoundInstance->hasBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:193
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  32. Ray\\Di\\BoundInstance->binding() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:87
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  33. Ray\\Di\\BoundInstance->getBoundDefinition() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:132
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  34. Ray\\Di\\BoundInstance->bindModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:177
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  35. Ray\\Di\\BoundInstance->getSetter() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:352
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  36. Ray\\Di\\Binder->bindMethod() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:371
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  37. Ray\\Di\\Binder->extractParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:72
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  38. Ray\\Di\\Binder->getParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:97
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  39. Ray\\Di\\Binder->instanceBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:128
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  40. Ray\\Di\\Binder->getInstanceWithContainer() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:199
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  41. Ray\\Di\\Binder->getProvidedInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:250
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  42. Ray\\Di\\Injector->getInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:266
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  43. Ray\\Di\\BoundInstance->hasBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Injector.php:193
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  44. Ray\\Di\\BoundInstance->binding() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:87
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  45. Ray\\Di\\BoundInstance->getBoundDefinition() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:132
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  46. Ray\\Di\\BoundInstance->bindModule() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:177
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  47. Ray\\Di\\BoundInstance->getSetter() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:352
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  48. Ray\\Di\\Binder->bindMethod() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php:371
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  49. Ray\\Di\\Binder->extractParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:72
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  50. Ray\\Di\\Binder->getParam() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:97
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  51. Ray\\Di\\Binder->instanceBound() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:128
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  52. Ray\\Di\\Binder->getInstanceWithContainer() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:199
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  53. Ray\\Di\\Binder->getProvidedInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:250
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  54. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:268
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  55. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  56. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  57. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:36:04 2014] [error] [client 127.0.0.1] PHP  58. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:36:40 2014] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Ray\\Di\\Exception\\NotBound' with message 'typehint='', annotate='master_db' for $masterDb in class 'BEAR\\Package\\Module\\Database\\Dbal\\Interceptor\\DbInjector'' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:293\nStack trace:\n#0 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(224): Ray\\Di\\Binder->getNotBoundException(Array, 0, '', 'master_db')\n#1 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(112): Ray\\Di\\Binder->jitBinding(Array, '', 'master_db', 0)\n#2 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(94): Ray\\Di\\Binder->getNoBoundParam(Array, 0)\n#3 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(72): Ray\\Di\\Binder->extractParam(Array, 0)\n#4 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php(371): Ray\\Di\\Binder->bindMethod(Object(BEAR\\Package\\Module\\Database\\Dbal\\DbalModule), 'BEAR\\Package\\Mo...', Array)\n#5 /Users/MackstarMBA/Sites/Mackst in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php on line 293
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: id in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/env/production.php on line 11
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP  10. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php:55
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: password in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/env/production.php on line 12
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP  10. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php:55
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: slaveId in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/env/production.php on line 19
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP  10. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php:55
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: slavePassword in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/env/production.php on line 20
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP  10. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/mackstar/spout/src/App/Module/AppModule.php:55
+[Sat Jun 21 17:41:23 2014] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Ray\\Di\\Exception\\NotBound' with message 'typehint='', annotate='lib_dir' for $libDir in class 'BEAR\\Package\\Provide\\TemplateEngine\\Twig\\TwigProvider'' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:293\nStack trace:\n#0 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(224): Ray\\Di\\Binder->getNotBoundException(Array, 0, '', 'lib_dir')\n#1 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(112): Ray\\Di\\Binder->jitBinding(Array, '', 'lib_dir', 0)\n#2 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(94): Ray\\Di\\Binder->getNoBoundParam(Array, 0)\n#3 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(72): Ray\\Di\\Binder->extractParam(Array, 0)\n#4 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php(371): Ray\\Di\\Binder->bindMethod(Object(Mackstar\\Spout\\App\\Module\\AppModule), 'BEAR\\Package\\Pr...', Array)\n#5 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php on line 293
+[Sat Jun 21 17:42:19 2014] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Ray\\Di\\Exception\\NotBound' with message 'typehint='', annotate='lib_dir' for $libDir in class 'BEAR\\Package\\Provide\\TemplateEngine\\Twig\\TwigProvider'' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:293\nStack trace:\n#0 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(224): Ray\\Di\\Binder->getNotBoundException(Array, 0, '', 'lib_dir')\n#1 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(112): Ray\\Di\\Binder->jitBinding(Array, '', 'lib_dir', 0)\n#2 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(94): Ray\\Di\\Binder->getNoBoundParam(Array, 0)\n#3 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(72): Ray\\Di\\Binder->extractParam(Array, 0)\n#4 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php(371): Ray\\Di\\Binder->bindMethod(Object(Mackstar\\Spout\\App\\Module\\AppModule), 'BEAR\\Package\\Pr...', Array)\n#5 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php on line 293
+[Sat Jun 21 17:43:28 2014] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'The "/Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/twig/template" directory does not exist.' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:93\nStack trace:\n#0 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(75): Twig_Loader_Filesystem->addPath('/Users/Mackstar...', '__main__')\n#1 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)\n#2 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Provide/TemplateEngine/Twig/TwigProvider.php(32): Twig_Loader_Filesystem->__construct(Array)\n#3 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(268): BEAR\\Package\\Provide\\TemplateEngine\\Twig\\TwigProvider->get()\n#4 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(250): Ray\\Di\\Binder->getProvidedInstance('BEAR\\Package\\Pr...')\n#5  in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 93
+[Sat Jun 21 17:43:29 2014] [error] [client 127.0.0.1] File does not exist: /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/favicon.ico
+[Sat Jun 21 17:46:46 2014] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'The "/Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/lib/twig/template" directory does not exist.' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:93\nStack trace:\n#0 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(75): Twig_Loader_Filesystem->addPath('/Users/Mackstar...', '__main__')\n#1 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)\n#2 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Provide/TemplateEngine/Twig/TwigProvider.php(32): Twig_Loader_Filesystem->__construct(Array)\n#3 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(268): BEAR\\Package\\Provide\\TemplateEngine\\Twig\\TwigProvider->get()\n#4 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(250): Ray\\Di\\Binder->getProvidedInstance('BEAR\\Package\\Pr...')\n#5 /Users in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 93
+[Sat Jun 21 17:46:47 2014] [error] [client 127.0.0.1] File does not exist: /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/favicon.ico
+[Sat Jun 21 17:47:05 2014] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'The "/Users/MackstarMBA/Sites/Mackstar.SpoutSite/lib/twig/template" directory does not exist.' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:93\nStack trace:\n#0 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(75): Twig_Loader_Filesystem->addPath('/Users/Mackstar...', '__main__')\n#1 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)\n#2 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Provide/TemplateEngine/Twig/TwigProvider.php(32): Twig_Loader_Filesystem->__construct(Array)\n#3 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(268): BEAR\\Package\\Provide\\TemplateEngine\\Twig\\TwigProvider->get()\n#4 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(250): Ray\\Di\\Binder->getProvidedInstance('BEAR\\Package\\Pr...')\n#5 /Users/Mac in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 93
+[Sat Jun 21 17:47:23 2014] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Ray\\Di\\Exception\\NotBound' with message 'typehint='', annotate='log_dir' for $logDir in class 'BEAR\\Package\\Provide\\TemplateEngine\\Twig\\TwigProvider'' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php:293\nStack trace:\n#0 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(224): Ray\\Di\\Binder->getNotBoundException(Array, 0, '', 'log_dir')\n#1 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(112): Ray\\Di\\Binder->jitBinding(Array, '', 'log_dir', 0)\n#2 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(94): Ray\\Di\\Binder->getNoBoundParam(Array, 0)\n#3 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php(72): Ray\\Di\\Binder->extractParam(Array, 0)\n#4 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/BoundInstance.php(371): Ray\\Di\\Binder->bindMethod(Object(Mackstar\\Spout\\App\\Module\\AppModule), 'BEAR\\Package\\Pr...', Array)\n#5 /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/Binder.php on line 293
+[Sat Jun 21 17:47:24 2014] [error] [client 127.0.0.1] File does not exist: /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/favicon.ico
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected ''master_db'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/env/production.php on line 11
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:18
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP   3. BEAR\\Package\\Bootstrap\\Bootstrap::getApp() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/run.php:21
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP   4. BEAR\\Package\\Module\\Di\\DiCompilerProvider->get() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Bootstrap/Bootstrap.php:41
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP   5. Ray\\Di\\DiCompiler::create() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:82
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP   6. Ray\\Di\\DiCompiler::createInstance() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:87
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP   7. Ray\\Di\\DiCompiler::createInjector() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:105
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP   8. BEAR\\Package\\Module\\Di\\DiCompilerProvider->BEAR\\Package\\Module\\Di\\{closure}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/ray/di/src/DiCompiler.php:128
+[Sat Jun 21 17:49:03 2014] [error] [client 127.0.0.1] PHP   9. Mackstar\\Spout\\App\\Module\\AppModule->__construct() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/vendor/bear/package/src/Module/Di/DiCompilerProvider.php:75

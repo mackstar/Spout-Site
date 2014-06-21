@@ -1,5 +1,8 @@
 <?php
 
+namespace Mackstar\Spout;
+
+
 use \BEAR\Package\Bootstrap\Bootstrap;
 
 $appDir = dirname(dirname(__DIR__));
@@ -11,3 +14,8 @@ Bootstrap::registerLoader(
     dirname(__DIR__)
 );
 
+return Bootstrap::getApp(
+    'Mackstar\Spout\App',
+    isset($context) ? $context : 'production',
+    dirname(__DIR__) . '/var/tmp'
+);
