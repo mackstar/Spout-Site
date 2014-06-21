@@ -1,0 +1,51 @@
+[Sat Jun 21 15:23:22 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/bootstrap/instance.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php on line 19
+[Sat Jun 21 15:23:22 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 15:23:22 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 15:23:22 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/bootstrap/instance.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php on line 19
+[Sat Jun 21 15:23:22 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 15:23:22 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 15:23:22 2014] [error] [client 127.0.0.1] File does not exist: /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/favicon.ico
+[Sat Jun 21 15:26:26 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/bootstrap/instance.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php on line 19
+[Sat Jun 21 15:26:26 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 15:26:26 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 15:26:26 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/bootstrap/instance.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php on line 19
+[Sat Jun 21 15:26:26 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 15:26:26 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:24:46 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/bootstrap/instance.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php on line 19
+[Sat Jun 21 16:24:46 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 16:24:46 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:24:46 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/bootstrap/instance.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php on line 19
+[Sat Jun 21 16:24:46 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 16:24:46 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:36:21 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/bootstrap/instance.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php on line 19
+[Sat Jun 21 16:36:21 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 16:36:21 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:36:21 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/bootstrap/instance.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php on line 19
+[Sat Jun 21 16:36:21 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 16:36:21 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:43:59 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/Mackstar.SpoutSite/bootstrap/instance.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php on line 19
+[Sat Jun 21 16:43:59 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 16:43:59 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:43:59 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/Mackstar.SpoutSite/bootstrap/instance.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php on line 19
+[Sat Jun 21 16:43:59 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 16:43:59 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:44:18 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/vendor/autoload.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/autoload.php on line 9
+[Sat Jun 21 16:44:18 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 16:44:18 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:44:18 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:19
+[Sat Jun 21 16:44:18 2014] [error] [client 127.0.0.1] PHP   3. require_once() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/instance.php:13
+[Sat Jun 21 16:44:18 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/vendor/autoload.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/autoload.php on line 9
+[Sat Jun 21 16:44:18 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 16:44:18 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:44:18 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:19
+[Sat Jun 21 16:44:18 2014] [error] [client 127.0.0.1] PHP   3. require_once() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/instance.php:13
+[Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP Warning:  require(/Users/MackstarMBA/Sites/vendor/autoload.php): failed to open stream: No such file or directory in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/autoload.php on line 9
+[Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:19
+[Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP   3. require_once() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/instance.php:13
+[Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP Fatal error:  require(): Failed opening required '/Users/MackstarMBA/Sites/vendor/autoload.php' (include_path='/Users/MackstarMBA/pear/share/pear') in /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/autoload.php on line 9
+[Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP   1. {main}() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:0
+[Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP   2. require() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/www/index.php:19
+[Sat Jun 21 16:44:36 2014] [error] [client 127.0.0.1] PHP   3. require_once() /Users/MackstarMBA/Sites/Mackstar.SpoutSite/var/bootstrap/instance.php:13

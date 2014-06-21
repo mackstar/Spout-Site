@@ -1,6 +1,6 @@
 <?php
 
-use Mackstar\Spout\Bootstrap;
+//use Mackstar\Spout\Bootstrap;
 
 /**
  * Welcome to the Mackstar.Spout Project
@@ -15,7 +15,6 @@ use Mackstar\Spout\Bootstrap;
  * GET /photo-gallery/photo-gallery-name
  * GET /my-custom-route
  */
-$appDir = dirname(dirname(__DIR__));
-$app = require $appDir . '/bootstrap/instance.php';
+$app = require dirname(dirname(__DIR__)) . '/var/bootstrap/run.php';
 
 

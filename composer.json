@@ -1,0 +1,24 @@
+{
+    "name": "mackstar/spout-site",
+    "description":"A Mackstar Spout Example Site",
+    "license": "MIT",
+    "keywords":[
+        "PHP",
+        "CMS",
+        "Spout"
+    ],
+    "authors":[
+        {
+            "name": "Richard McIntyre"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev":{
+        "mackstar/spout": "dev-stand-alone"
+    },
+    "autoload":{
+        "psr-4":{
+            "Bob\\BobsCars\\": "src"
+        }
+    }
+}
