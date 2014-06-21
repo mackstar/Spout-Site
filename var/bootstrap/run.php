@@ -17,5 +17,5 @@ Bootstrap::registerLoader(
 return Bootstrap::getApp(
     'Mackstar\Spout\App',
     isset($context) ? $context : 'production',
-    dirname(__DIR__) . '/var/tmp'
+    dirname(__DIR__) . '/tmp'
 );
