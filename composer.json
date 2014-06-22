@@ -20,5 +20,9 @@
         "psr-4":{
             "Bob\\BobsCars\\": "src"
         }
+    },
+    "scripts": {
+        "post-update-cmd": "Mackstar\\Spout\\Tools\\Console\\Install::postUpdate",
+        "post-install-cmd": "Mackstar\\Spout\\Tools\\Console\\Install::postUpdate"
     }
 }

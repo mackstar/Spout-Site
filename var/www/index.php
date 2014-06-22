@@ -37,6 +37,7 @@ try {
     $code = 405;
     goto ERROR;
 } catch (BadRequest $e) {
+    var_dump('eek');
     $code = 400;
     goto ERROR;
 } catch (Exception $e) {

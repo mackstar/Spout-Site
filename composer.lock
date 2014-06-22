@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c4cf8e409fa5157356a1cad7d7c9dbb1",
+    "hash": "079e732f51714469b0821f806b09ce10",
     "packages": [
 
     ],
@@ -1505,12 +1505,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mackstar/Spout.git",
-                "reference": "a5c4a9a4debee3276a1ad1c305f9891e7e8b1c37"
+                "reference": "2e6648ddef8f08257aab29fb91e14ae5c3a8654a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mackstar/Spout/zipball/a5c4a9a4debee3276a1ad1c305f9891e7e8b1c37",
-                "reference": "a5c4a9a4debee3276a1ad1c305f9891e7e8b1c37",
+                "url": "https://api.github.com/repos/mackstar/Spout/zipball/2e6648ddef8f08257aab29fb91e14ae5c3a8654a",
+                "reference": "2e6648ddef8f08257aab29fb91e14ae5c3a8654a",
                 "shasum": ""
             },
             "require": {
@@ -1551,7 +1551,7 @@
                 "cms",
                 "php"
             ],
-            "time": "2014-06-21 07:51:09"
+            "time": "2014-06-22 16:40:57"
         },
         {
             "name": "nikic/php-parser",
