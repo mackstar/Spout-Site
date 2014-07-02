@@ -5,14 +5,25 @@
  *
  * Place your custom routes here!
  *
- * These are implemented by the Aura Router details can be 
- * found at: https://github.com/auraphp/Aura.Router
- *  
+ * GET /api/resources/index
+ * POST /api/resources/types
+ * GET /blog/the-name-of-the-post
+ * GET /photo-gallery/photo-gallery-name
+ * GET /photo-gallery/photo-gallery-name
+ * GET /my-custom-route
  */
-$routes = $app->router->get();
+ //$routes = //$app->router->get();
 
-$routes->add('bobscars',[
-    ['home', '/', 'index']
-    ['cardetail', '/cardetail/read/{id}', 'cars/detail']
-
+$app->router->add('bobscars', [
+    ['home', '/', 'index'],
+    ['cardetail', '/cardetail/{id}', 'cars/detail']
+    ['car_resource', '/api/cardetail/{slug}', 'resources/detail', [
+            'tokens' => ['slug' => '[^/]+']
+            'values' => ['type' => 'cars']
+        ]
+    ]
 ]);
+
+// $routes->add('spout', [
+//     ['bobs-admin', '/bobsadmin', 'spoutadmin'],
+// ]);

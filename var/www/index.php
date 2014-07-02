@@ -15,21 +15,52 @@
  * GET /photo-gallery/photo-gallery-name
  * GET /my-custom-route
  */
+
+
+
 $app = require dirname(dirname(__DIR__)) . '/var/bootstrap/run.php';
+
+
+$app->router->get()->add('bobscars', [
+    ['home', '/', 'index'],
+    ['resource', '/{type}/{slug}', 'resources/detail', ['tokens' => ['slug' => '[^/]+', 'type' => '(blog|cars)']]],
+    ['cardetail', '/cardetail/{id}', 'cars/detail'],
+    ['car_resource', '/api/cardetail/{slug}', 'resources/detail', [
+            'tokens' => ['slug' => '[^/]+'],
+            'values' => ['type' => 'cars']
+        ]
+    ]
+]);
+
+$app->router->get()->add('spout', [
+    ['bobs-admin', '/bobsadmin', 'spoutadmin'],
+]);
 
 /**
  * Calling the match of a BEAR.Sunday compatible router will give us the 
  * $method, $pagePath, $query to be used
  * in the page request.
  */
-list($method, $pagePath, $query) = $app->router->match();
+
+
+
+list($method, $pagePath, $spoutApp, $query) = $app->router->match();
+
+if (is_null($pagePath)) {
+    $code = 404;
+    goto ERROR;
+}
 
 /**
  * An attempt to request the page resource is made.
  * Upon failure the appropriate error code is assigned and forwarded to ERROR.
  */
 try {
-    $app->page = $app->resource->$method->uri('page://self' . $pagePath)->withQuery($query)->eager->request();
+    $scheme = (in_array('api', $context))? 'app://' : 'page://';
+    $path = $scheme . $spoutApp . '/' . $pagePath;
+
+    $app->page = $app->resource->$method->uri($path)
+        ->withQuery($query)->eager->request();
 } catch (NotFound $e) {
     $code = 404;
     goto ERROR;

@@ -4,7 +4,7 @@
  * Welcome to the Mackstar.Spout Project
  *
  * This is where you can override the default configuration.
- * for the *DEV* environment.
+ * for the *DEV* context.
  */
 
 return [

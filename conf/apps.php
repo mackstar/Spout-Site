@@ -3,6 +3,6 @@
 return [
     'Site' => 'Bobs Cars',
     'Apps' => [
-        'bobscars' => 'Bob\BobsCars'
+        'bobscars' => 'Bob\\BobsCars'
     ]
 ];

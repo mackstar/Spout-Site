@@ -1,5 +1,7 @@
 <IfModule mod_rewrite.c>
     # turn on rewriting
+
+
     RewriteEngine On
 
     
@@ -10,4 +12,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !favicon.ico$
     RewriteRule ^(.*)$ /index.php [QSA,L]
+
 </IfModule>
