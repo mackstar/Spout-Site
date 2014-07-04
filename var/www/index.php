@@ -51,6 +51,7 @@ if (is_null($pagePath)) {
     goto ERROR;
 }
 
+
 /**
  * An attempt to request the page resource is made.
  * Upon failure the appropriate error code is assigned and forwarded to ERROR.

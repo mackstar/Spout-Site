@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Bob\BobsCars\Module\AppModule;
+namespace Bob\BobsCars\Module;
 
 use Mackstar\Spout\App\Module\AppModule as SpoutModule;
 
@@ -21,8 +21,8 @@ class AppModule extends SpoutModule
     /**
      * @param array $contexts
      */
-    public function __construct($contexts)
+    public function __construct($contexts, $apps)
     {
-        parent::__construct($contexts);
+        parent::__construct($contexts, $apps);
     }
 }
