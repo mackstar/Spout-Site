@@ -36,6 +36,23 @@ $app->router->get()->add('spout', [
     ['bobs-admin', '/bobsadmin', 'spoutadmin'],
 ]);
 
+
+function castToArray($obj)
+{
+    if (is_object($obj)) {
+        $obj = (array) $obj;
+    }
+    if (is_array($obj)) {
+        $new = array();
+        foreach ($obj as $key => $val) {
+            $new[$key] = castToArray($val);
+        }
+    } else {
+        $new = $obj;
+    }
+    return $new;
+}
+
 /**
  * Calling the match of a BEAR.Sunday compatible router will give us the 
  * $method, $pagePath, $query to be used
@@ -43,8 +60,15 @@ $app->router->get()->add('spout', [
  */
 
 
-
 list($method, $pagePath, $spoutApp, $query) = $app->router->match();
+
+if ( $method !== 'get' && $rawdata = file_get_contents('php://input')) {
+    $rawdata = castToArray(json_decode($rawdata));
+    if (!empty($rawdata)) {
+        $query += $rawdata;
+    }
+}
+
 
 if (is_null($pagePath)) {
     $code = 404;
@@ -56,6 +80,7 @@ if (is_null($pagePath)) {
  * An attempt to request the page resource is made.
  * Upon failure the appropriate error code is assigned and forwarded to ERROR.
  */
+
 try {
     $scheme = (in_array('api', $context))? 'app://' : 'page://';
     $path = $scheme . $spoutApp . '/' . $pagePath;

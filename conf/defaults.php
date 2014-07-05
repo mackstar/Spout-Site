@@ -12,6 +12,7 @@ $appDir = dirname(__DIR__);
 
 return [
     'tmp_dir' => dirname(__DIR__) . '/var/tmp',
+    'upload_dir' => dirname(__DIR__) . '/var/www/uploads',
     'resource_dir' => dirname(__DIR__),
     'lib_dir' => $appDir . '/lib',
     'log_dir' => $appDir . '/var/log',
