@@ -20,7 +20,7 @@ return [
     'master_db' => [
         'driver' => 'pdo_mysql',
         'host' => 'localhost',
-        'dbname' => 'spout-install',
+        'dbname' => 'spout',
         'user' => 'root',
         'password' => '',
         'port' => '3306',
@@ -29,7 +29,7 @@ return [
     'slave_db' => [
         'driver' => 'pdo_mysql',
         'host' => 'localhost',
-        'dbname' =>  'spout-install',
+        'dbname' =>  'spout',
         'user' => 'root',
         'password' => '',
         'port' => '3306',

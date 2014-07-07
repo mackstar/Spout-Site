@@ -15,9 +15,9 @@ foreach($contexts as $key => &$file) {
         continue;
     }
 
-    $context      = substr($file, 0, -4);
-    $contextConf  = $defaults;
-    $contextConf += (require $confDir . '/contexts/' . $file);
+    $context         = substr($file, 0, -4);
+    $contextOverride = (require $confDir . '/contexts/' . $file);
+    $contextConf     = array_replace_recursive($defaults, $contextOverride);
     foreach ($contextConf['master_db'] as $key => $value) {
         if (isset($map[$key])) {
             $dbConf[$context][$map[$key]] = $value;
