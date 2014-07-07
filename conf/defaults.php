@@ -16,21 +16,23 @@ return [
     'resource_dir' => dirname(__DIR__),
     'lib_dir' => $appDir . '/lib',
     'log_dir' => $appDir . '/var/log',
-    'template_dir' => $appDir . '/lib/twig/template',
+    'template_dir' => $appDir . '/lib/twig/templates',
     'master_db' => [
         'driver' => 'pdo_mysql',
         'host' => 'localhost',
-        'dbname' => 'spout',
+        'dbname' => 'spout-install',
         'user' => 'root',
         'password' => '',
+        'port' => '3306',
         'charset' => 'UTF8'
     ],
     'slave_db' => [
         'driver' => 'pdo_mysql',
         'host' => 'localhost',
-        'dbname' => 'spout',
+        'dbname' =>  'spout-install',
         'user' => 'root',
         'password' => '',
+        'port' => '3306',
         'charset' => 'UTF8'
     ],
 

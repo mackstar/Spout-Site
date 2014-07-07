@@ -4,6 +4,7 @@
  * Welcome to the Mackstar.Spout Project
  *
  * Place your custom routes here!
+ * Below are examples of possible routes..
  *
  * GET /api/resources/index
  * POST /api/resources/types
