@@ -13,18 +13,14 @@
  * GET /photo-gallery/photo-gallery-name
  * GET /my-custom-route
  */
- //$routes = //$app->router->get();
 
-$app->router->add('bobscars', [
+$routes->add('bobscars', [
     ['home', '/', 'index'],
-    ['cardetail', '/cardetail/{id}', 'cars/detail']
+    ['resource', '/{type}/{slug}', 'resources/detail', ['tokens' => ['slug' => '[^/]+', 'type' => '(blog|cars)']]],
+    ['cardetail', '/cardetail/{id}', 'cars/detail'],
     ['car_resource', '/api/cardetail/{slug}', 'resources/detail', [
-            'tokens' => ['slug' => '[^/]+']
+            'tokens' => ['slug' => '[^/]+'],
             'values' => ['type' => 'cars']
         ]
     ]
 ]);
-
-// $routes->add('spout', [
-//     ['bobs-admin', '/bobsadmin', 'spoutadmin'],
-// ]);

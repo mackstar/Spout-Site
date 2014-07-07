@@ -20,23 +20,6 @@
 
 $app = require dirname(dirname(__DIR__)) . '/var/bootstrap/run.php';
 
-
-$app->router->get()->add('bobscars', [
-    ['home', '/', 'index'],
-    ['resource', '/{type}/{slug}', 'resources/detail', ['tokens' => ['slug' => '[^/]+', 'type' => '(blog|cars)']]],
-    ['cardetail', '/cardetail/{id}', 'cars/detail'],
-    ['car_resource', '/api/cardetail/{slug}', 'resources/detail', [
-            'tokens' => ['slug' => '[^/]+'],
-            'values' => ['type' => 'cars']
-        ]
-    ]
-]);
-
-$app->router->get()->add('spout', [
-    ['bobs-admin', '/bobsadmin', 'spoutadmin'],
-]);
-
-
 function castToArray($obj)
 {
     if (is_object($obj)) {

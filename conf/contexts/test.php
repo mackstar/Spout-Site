@@ -8,4 +8,10 @@
  */
 
 return [
+    'master_db' => [
+        'dbname' => 'spout-install'
+    ],
+    'slave_db' => [
+        'dbname' => 'spout-install'
+    ]
 ];
