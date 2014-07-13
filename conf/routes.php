@@ -5,6 +5,7 @@
  *
  * Place your custom routes here!
  * Below are examples of possible routes..
+ * Routes are assigned to an app name.
  *
  * GET /api/resources/index
  * POST /api/resources/types
@@ -16,7 +17,8 @@
 
 $routes->add('bobscars', [
     ['home', '/', 'index'],
-    ['resource', '/{type}/{slug}', 'resources/detail', ['tokens' => ['slug' => '[^/]+', 'type' => '(blog|cars)']]],
+    ['blog-index', '/blog/', 'blog/index', ['tokens' => ['slug' => '[^/]+']]],
+    ['blog-detail', '/blog/{slug}', 'blog/detail', ['tokens' => ['slug' => '[^/]+']]],
     ['cardetail', '/cardetail/{id}', 'cars/detail'],
     ['car_resource', '/api/cardetail/{slug}', 'resources/detail', [
             'tokens' => ['slug' => '[^/]+'],
