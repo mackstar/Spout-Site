@@ -12,10 +12,10 @@ class Example extends ResourceObject
      */
     public $body = [];
 
-    public function onGet()
+    public function onGet($name)
     {
         $this['body'] = [
-            'test' => 'This is my test'
+            'test' => 'This is my test, welcome! ' . $name 
         ];
         return $this;
     }

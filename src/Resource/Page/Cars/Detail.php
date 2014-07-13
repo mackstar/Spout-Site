@@ -1,11 +1,11 @@
 <?php
 
-namespace Bob\BobsCars\Resource\Page;
+namespace Bob\BobsCars\Resource\Page\Cars;
 
 use BEAR\Resource\ResourceObject;
 use BEAR\Sunday\Inject\ResourceInject;
 
-class Index extends ResourceObject
+class Detail extends ResourceObject
 {
     use ResourceInject;
 
@@ -18,7 +18,7 @@ class Index extends ResourceObject
 
     public function onGet($id)
     {
-        $this['greeting'] = 'Hello ' . $name;
+        $this['greeting'] = 'Hello ' . $id;
         return $this;
     }
 }
