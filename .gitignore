@@ -4,3 +4,4 @@ vendor
 var/www/spout-admin/
 lib/twig/template/SpoutAdminLayout.twig
 var/www/uploads
+*.sqlite3

@@ -8,7 +8,12 @@ $map = [
 ];
 $defaults = require $confDir . '/defaults.php';
 
-$contexts = scandir($confDir . '/contexts');
+$contexts = array_filter(scandir($confDir . '/contexts'), function ($context) {
+    if (strpos($context, '.php')) {
+        return true;
+    }
+});
+
 foreach($contexts as $key => &$file) {
     if (substr($file, 0, 1) == '.') {
         unset($contexts[$key]);
@@ -17,6 +22,7 @@ foreach($contexts as $key => &$file) {
 
     $context         = substr($file, 0, -4);
     $contextOverride = (require $confDir . '/contexts/' . $file);
+
     $contextConf     = array_replace_recursive($defaults, $contextOverride);
     foreach ($contextConf['master_db'] as $key => $value) {
         if (isset($map[$key])) {
