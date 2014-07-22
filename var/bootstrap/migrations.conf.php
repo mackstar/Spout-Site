@@ -2,6 +2,7 @@
 
 $confDir = dirname(dirname(__DIR__)) . '/conf';
 $map = [
+    'path' => 'name',
     'dbname' => 'name',
     'password' => 'pass',
     'driver' => 'adapter' 
@@ -32,6 +33,7 @@ foreach($contexts as $key => &$file) {
         }
     }
     $dbConf[$context]['adapter'] = str_replace('pdo_', '', $dbConf[$context]['adapter']);
+    $dbConf[$context]['name'] = str_replace('.sqlite3', '', $dbConf[$context]['name']);
 }
 
 $migrationConf = [

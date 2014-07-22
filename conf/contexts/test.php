@@ -10,14 +10,12 @@
 return [
     'master_db' => [
         'driver' => 'pdo_sqlite',
-        'dbname' => dirname(dirname(__DIR__)) . '/vendor/mackstar/spout/tests/test_db.sqlite3',
-        'path' => dirname(dirname(__DIR__)) . '/vendor/mackstar/spout/tests/test_db.sqlite3',
+        'path' => dirname(dirname(__DIR__)) . '/tests/test_db.sqlite3',
         'charset' => 'UTF8'
     ],
     'slave_db' => [
         'driver' => 'pdo_sqlite',
-        'path' => dirname(dirname(__DIR__)) . '/vendor/mackstar/spout/tests/test_db.sqlite3',
-        'path' => dirname(dirname(__DIR__)) . '/vendor/mackstar/spout/tests/test_db.sqlite3',
+        'path' => dirname(dirname(__DIR__)) . '/tests/test_db.sqlite3',
         'charset' => 'UTF8'
     ]
 ];

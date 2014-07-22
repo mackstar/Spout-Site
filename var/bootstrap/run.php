@@ -24,7 +24,7 @@ if (strpos($_SERVER['REQUEST_URI'], '/api') === 0) {
 /**
  * Clear cache - remove in Production.
  */
-//Bootstrap::clearApp([$tmpDir]);
+Bootstrap::clearApp([$tmpDir]);
 
 /**
  * Additional Classloading
