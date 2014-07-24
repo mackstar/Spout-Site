@@ -14,7 +14,7 @@
     ],
     "minimum-stability": "dev",
     "require-dev":{
-        "mackstar/spout": "dev-master"
+        "mackstar/spout": "@dev"
     },
     "autoload":{
         "psr-4":{

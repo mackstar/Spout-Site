@@ -17,6 +17,7 @@
 
 $routes->add('bobscars', [
     ['home', '/', 'index'],
+    ['event', '/my-event', 'event'],
     ['blog-index', '/blog/', 'blog/index', ['tokens' => ['slug' => '[^/]+']]],
     ['blog-detail', '/blog/{slug}', 'blog/detail', ['tokens' => ['slug' => '[^/]+']]],
     ['cardetail', '/cardetail/{id}', 'cars/detail'],
