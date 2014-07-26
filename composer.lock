@@ -1623,12 +1623,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mackstar/Spout.git",
-                "reference": "13ceed1387d75f6c82fed047abfd54c8df7f5989"
+                "reference": "3e78dac00b2dee04e735b0019fca02c19e2a76e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mackstar/Spout/zipball/13ceed1387d75f6c82fed047abfd54c8df7f5989",
-                "reference": "13ceed1387d75f6c82fed047abfd54c8df7f5989",
+                "url": "https://api.github.com/repos/mackstar/Spout/zipball/3e78dac00b2dee04e735b0019fca02c19e2a76e6",
+                "reference": "3e78dac00b2dee04e735b0019fca02c19e2a76e6",
                 "shasum": ""
             },
             "require": {
@@ -1668,7 +1668,7 @@
                 "source": "https://github.com/mackstar/Spout/tree/master",
                 "issues": "https://github.com/mackstar/Spout/issues"
             },
-            "time": "2014-07-25 02:17:55"
+            "time": "2014-07-26 02:47:46"
         },
         {
             "name": "nikic/php-parser",
