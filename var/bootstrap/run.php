@@ -16,7 +16,11 @@ $apps = require $appDir . '/conf/apps.php';
  * In this case we set `dev/production` based on SERVER_ADDR,
  * and set `api`
  */
-$context = ($_SERVER['SERVER_ADDR'] === '127.0.0.1')? ['dev'] : ['production'];
+$context = (
+    (isset($_SERVER['SERVER_ADDR']) && $_SERVER['SERVER_ADDR'] == '127.0.0.1') ||
+    $_SERVER['SERVER_NAME'] == 'localhost'
+
+)? ['dev'] : ['production'];
 if (strpos($_SERVER['REQUEST_URI'], '/api') === 0) {
     $context[] = 'api';
 }
