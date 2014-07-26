@@ -12,6 +12,12 @@
             "name": "Richard McIntyre"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mackstar/spout"
+        }
+    ],
     "minimum-stability": "dev",
     "require-dev":{
         "mackstar/spout": "@dev"

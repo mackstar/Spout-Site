@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "853b9d8cd37c920e2edb0d2921df4d50",
+    "hash": "24b52feef867e8d3ff8fb3b94fcf6f41",
     "packages": [
 
     ],
@@ -282,12 +282,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "15bfae3ef14c316f070444346dd2398f86cf4107"
+                "reference": "3096e723dfc0e635f1c9a82646e6a5ccf2e5b86a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/15bfae3ef14c316f070444346dd2398f86cf4107",
-                "reference": "15bfae3ef14c316f070444346dd2398f86cf4107",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/3096e723dfc0e635f1c9a82646e6a5ccf2e5b86a",
+                "reference": "3096e723dfc0e635f1c9a82646e6a5ccf2e5b86a",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-07-19 17:33:58"
+            "time": "2014-07-24 15:18:06"
         },
         {
             "name": "aura/session",
@@ -1171,12 +1171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "a43e8da1e821de1cc6e636ebc2c44f0d9dae5c9a"
+                "reference": "3065aff5ac1e2230a853c7bfaadd8594845aeb9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/a43e8da1e821de1cc6e636ebc2c44f0d9dae5c9a",
-                "reference": "a43e8da1e821de1cc6e636ebc2c44f0d9dae5c9a",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/3065aff5ac1e2230a853c7bfaadd8594845aeb9b",
+                "reference": "3065aff5ac1e2230a853c7bfaadd8594845aeb9b",
                 "shasum": ""
             },
             "require": {
@@ -1234,7 +1234,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2014-07-22 12:18:20"
+            "time": "2014-07-25 01:21:04"
         },
         {
             "name": "doctrine/inflector",
@@ -1623,12 +1623,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mackstar/Spout.git",
-                "reference": "ee8a177a68b480f038940421534111bb4c450e1a"
+                "reference": "13ceed1387d75f6c82fed047abfd54c8df7f5989"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mackstar/Spout/zipball/ee8a177a68b480f038940421534111bb4c450e1a",
-                "reference": "ee8a177a68b480f038940421534111bb4c450e1a",
+                "url": "https://api.github.com/repos/mackstar/Spout/zipball/13ceed1387d75f6c82fed047abfd54c8df7f5989",
+                "reference": "13ceed1387d75f6c82fed047abfd54c8df7f5989",
                 "shasum": ""
             },
             "require": {
@@ -1651,7 +1651,6 @@
                     "Mackstar\\Spout\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1662,10 +1661,14 @@
             ],
             "description": "A BEAR.Sunday based CMS",
             "keywords": [
-                "cms",
-                "php"
+                "CMS",
+                "PHP"
             ],
-            "time": "2014-07-24 03:10:26"
+            "support": {
+                "source": "https://github.com/mackstar/Spout/tree/master",
+                "issues": "https://github.com/mackstar/Spout/issues"
+            },
+            "time": "2014-07-25 02:17:55"
         },
         {
             "name": "nikic/php-parser",
@@ -1673,12 +1676,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "5960ecfc105011b8d1bfedf7647b4b8989dbcb4c"
+                "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/5960ecfc105011b8d1bfedf7647b4b8989dbcb4c",
-                "reference": "5960ecfc105011b8d1bfedf7647b4b8989dbcb4c",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ef70767475434bdb3615b43c327e2cae17ef12eb",
+                "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb",
                 "shasum": ""
             },
             "require": {
@@ -1710,7 +1713,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2014-04-19 20:26:05"
+            "time": "2014-07-23 18:24:17"
         },
         {
             "name": "nocarrier/hal",
