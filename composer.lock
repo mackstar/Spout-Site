@@ -1171,12 +1171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "3065aff5ac1e2230a853c7bfaadd8594845aeb9b"
+                "reference": "663135d59bd8abb64e3efea3adc53aed9674df74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/3065aff5ac1e2230a853c7bfaadd8594845aeb9b",
-                "reference": "3065aff5ac1e2230a853c7bfaadd8594845aeb9b",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/663135d59bd8abb64e3efea3adc53aed9674df74",
+                "reference": "663135d59bd8abb64e3efea3adc53aed9674df74",
                 "shasum": ""
             },
             "require": {
@@ -1234,7 +1234,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2014-07-25 01:21:04"
+            "time": "2014-07-27 12:25:05"
         },
         {
             "name": "doctrine/inflector",
@@ -1623,12 +1623,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mackstar/Spout.git",
-                "reference": "0d13f625ddf21bf7083933f1f30ec2a8924584f1"
+                "reference": "3aad20079c909f5f6a70c6336e5053838d25f45c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mackstar/Spout/zipball/0d13f625ddf21bf7083933f1f30ec2a8924584f1",
-                "reference": "0d13f625ddf21bf7083933f1f30ec2a8924584f1",
+                "url": "https://api.github.com/repos/mackstar/Spout/zipball/3aad20079c909f5f6a70c6336e5053838d25f45c",
+                "reference": "3aad20079c909f5f6a70c6336e5053838d25f45c",
                 "shasum": ""
             },
             "require": {
@@ -1668,7 +1668,7 @@
                 "source": "https://github.com/mackstar/Spout/tree/master",
                 "issues": "https://github.com/mackstar/Spout/issues"
             },
-            "time": "2014-07-27 01:13:44"
+            "time": "2014-07-27 13:18:10"
         },
         {
             "name": "nikic/php-parser",
