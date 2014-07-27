@@ -572,12 +572,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Web.git",
-                "reference": "6347ac036423a1cdbc4980c615d6e47f002e391a"
+                "reference": "296532d5cac2fee24eba71332d57c68878a78adc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Web/zipball/6347ac036423a1cdbc4980c615d6e47f002e391a",
-                "reference": "6347ac036423a1cdbc4980c615d6e47f002e391a",
+                "url": "https://api.github.com/repos/auraphp/Aura.Web/zipball/296532d5cac2fee24eba71332d57c68878a78adc",
+                "reference": "296532d5cac2fee24eba71332d57c68878a78adc",
                 "shasum": ""
             },
             "require": {
@@ -617,7 +617,7 @@
                 "request",
                 "response"
             ],
-            "time": "2014-06-26 16:09:10"
+            "time": "2014-07-26 18:33:54"
         },
         {
             "name": "bear/package",
@@ -1623,12 +1623,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mackstar/Spout.git",
-                "reference": "3e78dac00b2dee04e735b0019fca02c19e2a76e6"
+                "reference": "0d13f625ddf21bf7083933f1f30ec2a8924584f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mackstar/Spout/zipball/3e78dac00b2dee04e735b0019fca02c19e2a76e6",
-                "reference": "3e78dac00b2dee04e735b0019fca02c19e2a76e6",
+                "url": "https://api.github.com/repos/mackstar/Spout/zipball/0d13f625ddf21bf7083933f1f30ec2a8924584f1",
+                "reference": "0d13f625ddf21bf7083933f1f30ec2a8924584f1",
                 "shasum": ""
             },
             "require": {
@@ -1668,7 +1668,7 @@
                 "source": "https://github.com/mackstar/Spout/tree/master",
                 "issues": "https://github.com/mackstar/Spout/issues"
             },
-            "time": "2014-07-26 02:47:46"
+            "time": "2014-07-27 01:13:44"
         },
         {
             "name": "nikic/php-parser",
