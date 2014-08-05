@@ -18,13 +18,19 @@ return [
     'log_dir' => $appDir . '/var/log',
     'template_dir' => $appDir . '/lib/twig/template',
     'master_db' => [
-        'driver' => 'pdo_sqlite',
-        'path' => __DIR__ . '/test_db.sqlite3', 
+        'driver' => 'pdo_mysql',
+        'host' => 'localhost',
+        'dbname' => 'spout',
+        'user' => 'root',
+        'password' => '',
         'charset' => 'UTF8'
     ],
     'slave_db' => [
-        'driver' => 'pdo_sqlite',
-        'path' => __DIR__ . '/test_db.sqlite3', 
+        'driver' => 'pdo_mysql',
+        'host' => 'localhost',
+        'dbname' => 'spout',
+        'user' => 'root',
+        'password' => '',
         'charset' => 'UTF8'
     ],
 
