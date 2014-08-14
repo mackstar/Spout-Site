@@ -16,6 +16,7 @@ return [
     'resource_dir' => dirname(__DIR__),
     'lib_dir' => $appDir . '/lib',
     'log_dir' => $appDir . '/var/log',
+    'timezone' => 'Europe/London',
     'template_dir' => $appDir . '/lib/twig/template',
     'master_db' => [
         'driver' => 'pdo_mysql',
