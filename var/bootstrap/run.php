@@ -20,7 +20,7 @@ $context = (
     (isset($_SERVER['SERVER_ADDR']) && $_SERVER['SERVER_ADDR'] == '127.0.0.1') ||
     $_SERVER['SERVER_NAME'] == 'localhost'
 
-)? ['dev'] : ['production'];
+)? ['dev'] : ['prod'];
 if (strpos($_SERVER['REQUEST_URI'], '/api') === 0) {
     $context[] = 'api';
 }
@@ -28,7 +28,9 @@ if (strpos($_SERVER['REQUEST_URI'], '/api') === 0) {
 /**
  * Clear cache - remove in Production.
  */
-Bootstrap::clearApp([$tmpDir]);
+if (in_array('dev', $context)) {
+    Bootstrap::clearApp([$tmpDir]);
+}
 
 /**
  * Additional Classloading
@@ -37,12 +39,11 @@ Bootstrap::clearApp([$tmpDir]);
  * have already been loaded via composer.
  */
 Bootstrap::registerLoader($loader, $apps, $appDir);
-
+//(new \Ray\Di\Locator())->setLogger(new \Ray\Di\CompilationLogger(new \Ray\Di\Logger()));
 /**
  * Returns the `Mackstar Spout`, `BEAR.Sunday` app.
  */
 $app = Bootstrap::getApp($apps, $context, $tmpDir);
-
 $routes = $app->router->get();
 require $appDir . '/conf/routes.php';
 
