@@ -15,8 +15,9 @@
  * GET /photo-gallery/photo-gallery-name
  * GET /my-custom-route
  */
-
-
+if (preg_match('/\.(?:png|jpg|jpeg|gif|js|css|html|woff|svg|ico)$/', strtolower($_SERVER["REQUEST_URI"]))) {
+    return false;
+}
 
 $app = require dirname(dirname(__DIR__)) . '/var/bootstrap/run.php';
 
@@ -97,6 +98,17 @@ OK: {
 
 ERROR: {
     http_response_code($code);
-    require dirname(dirname(__DIR__)) . "/lib/errors/{$code}.php";
+    try {
+        switch ($code) {
+            case '404':
+                echo $app->resource->get->uri('page://pz/fourofour')->eager->request();
+                break;
+            default:
+                echo $app->resource->get->uri('page://pz/fivehundred')->eager->request();
+        }
+    } catch (Exception $e) {
+        echo $code;
+    }
+
     exit(1);
 }
