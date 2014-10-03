@@ -11,7 +11,7 @@ composer install
 rm -rf vendor/mackstar/spout
 composer install --prefer-source
 ./vendor/bin/spout install -e dev
-php -S localhost:8080
+php -S localhost:8080 -t var/www var/www/index.php
 ```
 
 ### Create your user account
