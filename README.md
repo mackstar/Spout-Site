@@ -1,17 +1,42 @@
 Spout-Site
 ==========
 
-A website Skeleton for creating a spout app.
+A website Skeleton for creating a spout app and contributing to the project.
 
-## Installation
-
+## Checkout/Install and get Running
 ```
+git clone git@github.com:mackstar/Spout-Site.git
+cd Spout-Site
 composer install
+rm -rf vendor/mackstar/spout
+composer install --prefer-source
+./vendor/bin/spout install -e dev
+php -S localhost:8080
 ```
 
-## Built-in webserver
-
+### Create your user account
 ```
-cd var/www
-php -S localhost:8088
+curl -XPOST 'http://localhost:8080/api/users/index' -d '{
+    "email": "email@example.com",
+    "password": "secret",
+    "name": "Your Name",
+    "role": {
+        "id": "1",
+        "name": "Admin"
+    }
+}';
+```
+
+## For JS/CSS dev
+
+The following compliles and transports your JS/CSS
+```
+cd vendor/mackstar/spout
+npm install
+grunt watch
+```
+
+### JS/CSS files live in:
+```
+vendor/mackstar/spout/dist/spout-admin
 ```
