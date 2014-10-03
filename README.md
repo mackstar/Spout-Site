@@ -27,6 +27,12 @@ curl -XPOST 'http://localhost:8080/api/users/index' -d '{
 }';
 ```
 
+### Access the admin screen
+
+```
+http://localhost:8080/spoutadmin
+```
+
 ## For JS/CSS dev
 
 The following compliles and transports your JS/CSS
