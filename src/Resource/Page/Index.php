@@ -1,6 +1,6 @@
 <?php
 
-namespace Bob\BobsCars\Resource\Page;
+namespace Mackstar\Site\Resource\Page;
 
 use BEAR\Resource\ResourceObject;
 use BEAR\Sunday\Inject\ResourceInject;
@@ -9,16 +9,12 @@ class Index extends ResourceObject
 {
     use ResourceInject;
 
-    /**
-     * @var array
-     */
-    public $body = [
-        'greeting' =>  ''
-    ];
-
-    public function onGet()
+    public function onGet($slug = 'about')
     {
-        $this['greeting'] = 'Welcome';
+        $this['page'] = $this->resource->get->uri('app://spout/resources/detail')
+            ->eager
+            ->withQuery(['type' => 'page', 'slug' => $slug])
+            ->request()['resource'];
         return $this;
     }
 }

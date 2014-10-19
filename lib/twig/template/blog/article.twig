@@ -1,0 +1,16 @@
+<article class="row">
+    
+        <div class="col-md-12 zl-news-index__text">
+            <a href="/blog/{{ resource.slug }}">
+                <h2 class="zl-news-feed__title">{{resource.title}}</h2>
+            </a>
+            <time class="h4" datetime="{{resource.created|date("Y-m-d")}}">
+                {{resource.created|date("D jS F Y")}}</time>
+            <p>
+                {% set body = resource.fields.body.value |markdown |striptags %}
+                {{ body|length > 250 ? body|slice(0, 250) ~ '...' : body  }}
+
+            </p>
+        </div>
+</article>
+<hr />

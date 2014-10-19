@@ -1,6 +1,6 @@
 <?php
 
-namespace Bob\BobsCars\Resource\Page\Blog;
+namespace Mackstar\Site\Resource\Page\Blog;
 
 use BEAR\Resource\ResourceObject;
 use BEAR\Sunday\Inject\ResourceInject;
@@ -9,19 +9,32 @@ class Index extends ResourceObject
 {
     use ResourceInject;
 
-    /**
-     * @var array
-     */
-    public $body = [
-        'greeting' =>  ''
-    ];
-
-    public function onGet()
+    public function onGet($page = '0')
     {
-        $this['blog_posts'] = $this->resource->get->uri('app://spout/resources/index')
+        $pp = 10;
+        $blogItems = $this->resource->get->uri('app://spout/resources/listing')
+            ->withQuery([
+                'type' => 'blog',
+                'sort' => 'updated',
+                'direction' => 'DESC',
+                'limit' => $pp + 1,
+                'offset' => $pp * $page
+            ])
             ->eager
-            ->withQuery(['type' => 'blog'])
-            ->request();;
+            ->request()['resources'];
+
+        if (count($blogItems) > $pp) {
+            unset($blogItems[$pp]);
+            $next = true;
+        }
+        $this['blogs'] = $blogItems;
+
+        $this['_meta'] = [
+            'next' => (isset($next))? $page + 1 : false,
+            'previous' => ($page !== 0)? $page - 1 : false
+        ];
+
+
         return $this;
     }
 }

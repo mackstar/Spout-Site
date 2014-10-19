@@ -5,6 +5,8 @@
  */
 use \Mackstar\Spout\Bootstrap\Bootstrap;
 
+ini_set('xdebug.max_nesting_level', 1000);
+
 $appDir = dirname(dirname(__DIR__));
 $tmpDir = $appDir . '/var/tmp';
 
@@ -28,9 +30,9 @@ if (strpos($_SERVER['REQUEST_URI'], '/api') === 0) {
 /**
  * Clear cache - remove in Production.
  */
-if (in_array('dev', $context)) {
+//if (in_array('dev', $context)) {
     Bootstrap::clearApp([$tmpDir]);
-}
+//}
 
 /**
  * Additional Classloading

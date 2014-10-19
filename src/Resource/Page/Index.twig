@@ -1,8 +1,14 @@
-Welcome
+{% extends "Default.twig" %}
+{% block page %}
 
-{{ resource('app://spout/menus/links?menu=primary', 'menus.primary') }}
+    <div class="row">
+        {% markdown %}
+            {{ page.fields.body.value }}
 
-{{ resource('app://bobscars/test/example?name=richard', 'Test') }}
+        {% endmarkdown %}
 
-Second
-{{ resource('app://spout/menus/links?menu=secondary', 'menus.secondary') }}
+    </div>
+
+    
+
+{% endblock %}

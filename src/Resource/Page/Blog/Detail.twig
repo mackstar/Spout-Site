@@ -1,0 +1,13 @@
+{% extends "Default.twig" %}
+{% block page %}
+
+<h1>{{ blog.title }}</h1>
+<time class="h4" datetime="{{resource.created|date("Y-m-d")}}">
+            {{blog.created|date("D jS F Y")}}</time>
+
+    {% markdown %}
+        {{ blog.fields.body.value }}
+    {% endmarkdown %}
+
+
+{% endblock %}

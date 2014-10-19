@@ -6,10 +6,10 @@
  */ 
 
 return [
-    'site' => 'Bobs Cars',
+    'site' => 'Mackstar',
     'apps' => [
-        'bobscars' => ['namespace' => 'Bob\\BobsCars'],
+        'mackstar' => ['namespace' => 'Mackstar\\Site'],
 
     ],
-    'default' => 'bobscars'
+    'default' => 'mackstar'
 ];

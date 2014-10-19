@@ -15,15 +15,9 @@
  * GET /my-custom-route
  */
 
-$routes->add('bobscars', [
+$routes->add('mackstar', [
     ['home', '/', 'index'],
-    ['event', '/my-event', 'event'],
-    ['blog-index', '/blog/', 'blog/index', ['tokens' => ['slug' => '[^/]+']]],
+    ['blog', '/blog', 'blog/index'],
     ['blog-detail', '/blog/{slug}', 'blog/detail', ['tokens' => ['slug' => '[^/]+']]],
-    ['cardetail', '/cardetail/{id}', 'cars/detail'],
-    ['car_resource', '/api/cardetail/{slug}', 'resources/detail', [
-            'tokens' => ['slug' => '[^/]+'],
-            'values' => ['type' => 'cars']
-        ]
-    ]
+    ['page', '/pages/{slug}', 'index', ['tokens' => ['slug' => '[^/]+']]]
 ]);

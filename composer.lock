@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d7b1811eeda70c344908abace72a85dd",
+    "hash": "a649c05cde7eba9e5551fef1f3d25b11",
     "packages": [],
     "packages-dev": [
         {
@@ -1114,16 +1114,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "2.4.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "ae92d076442e27b6910dd86a1292a8867cf5cfe4"
+                "reference": "559a805125524b0bb6742638784c2979a5c5e607"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/ae92d076442e27b6910dd86a1292a8867cf5cfe4",
-                "reference": "ae92d076442e27b6910dd86a1292a8867cf5cfe4",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/559a805125524b0bb6742638784c2979a5c5e607",
+                "reference": "559a805125524b0bb6742638784c2979a5c5e607",
                 "shasum": ""
             },
             "require": {
@@ -1140,7 +1140,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4.x-dev"
+                    "dev-master": "2.5.x-dev"
                 }
             },
             "autoload": {
@@ -1154,17 +1154,6 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/",
-                    "role": "Creator"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com",
-                    "homepage": "http://www.instaclick.com"
-                },
-                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
@@ -1173,10 +1162,16 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
-                    "role": "Developer of wrapped JMSSerializerBundle"
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
                 }
             ],
             "description": "Common Library for Doctrine projects",
@@ -1188,7 +1183,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2014-05-21 19:29:23"
+            "time": "2014-07-27 17:39:50"
         },
         {
             "name": "doctrine/dbal",
@@ -1384,16 +1379,16 @@
         },
         {
             "name": "guzzlehttp/command",
-            "version": "dev-master",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/command.git",
-                "reference": "bf2d3c4c43f81ddf14fe12233bb94cfff24f1f6c"
+                "reference": "e2004b2ef217f14380f46bea9ebe8ecce3cecf7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/command/zipball/bf2d3c4c43f81ddf14fe12233bb94cfff24f1f6c",
-                "reference": "bf2d3c4c43f81ddf14fe12233bb94cfff24f1f6c",
+                "url": "https://api.github.com/repos/guzzle/command/zipball/e2004b2ef217f14380f46bea9ebe8ecce3cecf7a",
+                "reference": "e2004b2ef217f14380f46bea9ebe8ecce3cecf7a",
                 "shasum": ""
             },
             "require": {
@@ -1426,20 +1421,20 @@
                 }
             ],
             "description": "Provides the foundation for building command based web service clients",
-            "time": "2014-08-22 23:49:28"
+            "time": "2014-08-08 16:41:48"
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "dev-master",
+            "version": "4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "cfdb1169e4eefd6513e577c2fa8b4cc02d8de8a8"
+                "reference": "66fd916e9f9130bc22c51450476823391cb2f67c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/cfdb1169e4eefd6513e577c2fa8b4cc02d8de8a8",
-                "reference": "cfdb1169e4eefd6513e577c2fa8b4cc02d8de8a8",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/66fd916e9f9130bc22c51450476823391cb2f67c",
+                "reference": "66fd916e9f9130bc22c51450476823391cb2f67c",
                 "shasum": ""
             },
             "require": {
@@ -1491,7 +1486,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-10-11 17:32:43"
+            "time": "2014-10-05 19:29:14"
         },
         {
             "name": "guzzlehttp/guzzle-services",
@@ -1541,16 +1536,16 @@
         },
         {
             "name": "guzzlehttp/streams",
-            "version": "dev-master",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/streams.git",
-                "reference": "48be63a56ea8a98ec620eb59ef76bcab77feba55"
+                "reference": "f91b721d73f0e561410903b3b3c90a5d0e40b534"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/streams/zipball/48be63a56ea8a98ec620eb59ef76bcab77feba55",
-                "reference": "48be63a56ea8a98ec620eb59ef76bcab77feba55",
+                "url": "https://api.github.com/repos/guzzle/streams/zipball/f91b721d73f0e561410903b3b3c90a5d0e40b534",
+                "reference": "f91b721d73f0e561410903b3b3c90a5d0e40b534",
                 "shasum": ""
             },
             "require": {
@@ -1562,13 +1557,16 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
                     "GuzzleHttp\\Stream\\": "src/"
-                }
+                },
+                "files": [
+                    "src/functions.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1581,13 +1579,13 @@
                     "homepage": "https://github.com/mtdowling"
                 }
             ],
-            "description": "Provides a simple abstraction over streams of data",
+            "description": "Provides a simple abstraction over streams of data (Guzzle 4+)",
             "homepage": "http://guzzlephp.org/",
             "keywords": [
                 "Guzzle",
                 "stream"
             ],
-            "time": "2014-10-12 19:45:36"
+            "time": "2014-08-17 21:15:53"
         },
         {
             "name": "imagine/imagine",
@@ -1647,12 +1645,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mackstar/Spout.git",
-                "reference": "879ebaf6130336b2ef055a39ff24492a3d8a4b25"
+                "reference": "8a5a6564e9cd6e55bd392dd3aac188daf30cb00c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mackstar/Spout/zipball/879ebaf6130336b2ef055a39ff24492a3d8a4b25",
-                "reference": "879ebaf6130336b2ef055a39ff24492a3d8a4b25",
+                "url": "https://api.github.com/repos/mackstar/Spout/zipball/8a5a6564e9cd6e55bd392dd3aac188daf30cb00c",
+                "reference": "8a5a6564e9cd6e55bd392dd3aac188daf30cb00c",
                 "shasum": ""
             },
             "require": {
@@ -1694,7 +1692,7 @@
                 "source": "https://github.com/mackstar/Spout/tree/master",
                 "issues": "https://github.com/mackstar/Spout/issues"
             },
-            "time": "2014-10-12 20:07:59"
+            "time": "2014-10-13 20:18:14"
         },
         {
             "name": "michelf/php-markdown",
@@ -2479,12 +2477,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "c476a6b1fc4d5f79b2bd53c16420465592f4bf38"
+                "reference": "13b782b4fd262cc9caa7e915779abe7aaa708a3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/c476a6b1fc4d5f79b2bd53c16420465592f4bf38",
-                "reference": "c476a6b1fc4d5f79b2bd53c16420465592f4bf38",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/13b782b4fd262cc9caa7e915779abe7aaa708a3b",
+                "reference": "13b782b4fd262cc9caa7e915779abe7aaa708a3b",
                 "shasum": ""
             },
             "require": {
@@ -2528,7 +2526,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-10-11 22:29:52"
+            "time": "2014-10-14 17:08:09"
         },
         {
             "name": "zendframework/zend-stdlib",

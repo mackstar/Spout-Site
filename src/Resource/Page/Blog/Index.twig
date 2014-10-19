@@ -1,3 +1,22 @@
-<h1>Blog</h1>
+{% extends "Default.twig" %}
+{% block page %}
 
-{{blog_post}}
+<h1 class="text-right">Blog</h1>
+
+{% for blog in blogs %}
+    {% set blogresource = 'app://spout/resources/detail?type=blog&slug=' ~ blog.slug %}
+    {{ resource(blogresource, 'blog.article') }}
+{% endfor %}
+
+
+<ul class="pager">
+  {% if _meta.previous == false %}
+    <li class="previous"><a href="/blog/{{ _meta.previous }}">&larr; Older</a></li>
+  {% endif %}
+  {% if _meta.next %}
+    <li class="next"><a href="/blog/{{ _meta.next }}">Newer &rarr;</a></li>
+  {% endif %}
+</ul>
+
+
+{% endblock %}
