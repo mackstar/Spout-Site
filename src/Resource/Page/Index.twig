@@ -1,14 +1,8 @@
 {% extends "Default.twig" %}
 {% block page %}
 
-    <div class="row">
-        {% markdown %}
-            {{ page.fields.body.value }}
-
-        {% endmarkdown %}
-
-    </div>
-
-    
+    {% markdown %}
+        {{ page.fields.body.value }}
+    {% endmarkdown %}
 
 {% endblock %}
