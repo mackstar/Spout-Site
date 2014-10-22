@@ -1,4 +1,5 @@
 {% extends "Default.twig" %}
+{% block title %}{{ blog.title }}{% endblock %}
 {% block page %}
 
 <h1>{{ blog.title }}</h1>
@@ -8,6 +9,8 @@
     {% markdown %}
         {{ blog.fields.body.value }}
     {% endmarkdown %}
+
+    {% include "toos/disqus.twig" %}
 
 
 {% endblock %}
